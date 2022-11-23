@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Demo</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-    hello world
+
+<body style="margin: 0; background-color: #497174;">
+    <nav id="primary-nav">
+        <div style="margin-top: 70px;">
+
+            <a class="nav-links" href="/">Homepage</a> | 
+
+            {{#if logged_in}}
+            <a class="nav-links" href="/dashboard">Dashboard</a>
+            {{else}}
+            <a class="nav-links" href="/login">Dashboard</a>
+            {{/if}}
+        </div>
+
+        <a class="nav-links" href="/login">Login</a>
+    </nav>
+    {{{body}}}
 </body>
+
 </html>

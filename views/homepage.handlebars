@@ -1,0 +1,15 @@
+{{#each posts as |post|}}
+    <div class="post">
+        
+        <div class="post-sections post-title">
+            <h1 style="margin: 5px;">{{post.title}}</h1>
+        </div>
+        
+            {{!-- <p style="justify-self: end;">{{post.timestamp}}</p> --}}
+        
+        <div class="post-sections post-text">
+            <p style="margin: 0;">{{post.text}}</p>
+        </div>
+    
+    </div>
+    {{/each}}
