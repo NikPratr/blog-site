@@ -1,30 +1,30 @@
 [
     {
-        "name": "Guts",
+        "username": "Guts",
         "password": "password"
     },
     {
-        "name": "Casca",
+        "username": "Casca",
         "password": "password" 
     },
     {
-        "name": "Judeau, the GOAT",
+        "username": "Judeau, the GOAT",
         "password": "password" 
     },
     {
-        "name": "Pippin",
+        "username": "Pippin",
         "password": "password" 
     },
     {
-        "name": "Rickert",
+        "username": "Rickert",
         "password": "password" 
     },
     {
-        "name": "Corkus",
+        "username": "Corkus",
         "password": "password" 
     },
     {
-        "name": "Gaston",
+        "username": "Gaston",
         "password": "password" 
     }
 ]
